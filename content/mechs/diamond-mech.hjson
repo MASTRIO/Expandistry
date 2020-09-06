@@ -8,9 +8,10 @@ flying: false
 health: 200
 weaponOffsetX: 4
 weapon: {
-  name: diamond-blaster
-  length: 1.5
-  reload: 4
-  alternate: true
-  bullet: BasicBulletType
+  "name": "diamond-blaster",
+	"length": 1,
+	"reload": 12.5,
+	"shootSound": "shootSnap",
+	"alternate": true,
+	"bullet": "standardGlaive"
 }

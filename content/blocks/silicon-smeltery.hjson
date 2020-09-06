@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: "Silicon Smeltery"
+description: "Melts down Silicon."
+liquidCapacity: 30
+outputLiquid: {
+  liquid: molten-silicon
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 1.0
+  item: silicon
+}
+requirements: [
+  lead/50
+  metaglass/10
+]
+category: crafting
+research: graphite-press
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

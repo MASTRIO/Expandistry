@@ -1,0 +1,6 @@
+name: Molten Silicon
+description: Silicon in liquid form
+temperature: 0.3
+viscosity: 0.4
+effect: melting
+color: 999966

@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Hypersteel Forge
+description: Combines molten silicon and metaglass to create HYPERSTEEL
+liquidCapacity: 20
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      metaglass/3
+    ]
+  }
+  liquid: {
+    liquid: molten-silicon
+    amount: 2
+  }
+}
+requirements: [
+  copper/50
+  metaglass/60
+  graphite/50
+]
+category: crafting
+research: silicon-smeltery
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: hypersteel/1

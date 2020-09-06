@@ -1,0 +1,17 @@
+name: Diamond Drill
+description: A very blue drill.
+hasPower: true
+type: Drill
+size: 2
+tier: 3
+drillTime: 200
+consumes: {
+  power: 1.0
+}
+requirements: [
+  hypersteel/30
+  metaglass/40
+  diamond-plate/15
+]
+category: production
+research: diamond-plate-press

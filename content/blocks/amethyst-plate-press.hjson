@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Amethyst Plate Press
+description: Presses Amethysts into firm plates of Dark Matter
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 100
+updateEffect: smeltsmoke
+consumes: {
+  power: 2.3
+  items: {
+    items: [
+      amethyst/3
+    ]
+  }
+}
+requirements: [
+  hypersteel/10
+  metaglass/160
+  diamond-plate/10
+]
+category: crafting
+research: matter-infuser
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: amethyst-plate/1

@@ -1,0 +1,25 @@
+type: GenericSmelter
+name: Diamond SuperSmelter
+description: compresses and superheats graphite into chunks of diamond
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.9
+  items: {
+    items: [
+      graphite/10
+    ]
+  }
+}
+requirements: [
+  hypersteel/30
+  titanium/70
+]
+category: crafting
+research: hypersteel-forge
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: diamond-chunk/1

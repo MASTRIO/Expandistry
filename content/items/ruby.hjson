@@ -1,0 +1,4 @@
+type: resource
+name: Ruby
+description: A shiny red gem that can be harnessed to create powerful lazers.
+color: e60000

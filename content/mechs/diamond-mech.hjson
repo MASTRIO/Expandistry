@@ -1,0 +1,16 @@
+name: Diamond Mech
+description: Your average mech, just plated with diamond
+speed: 0.6
+boostSpeed: 1.5
+buildPower: 2
+engineColor: "00ccff"
+flying: false
+health: 200
+weaponOffsetX: 4
+weapon: {
+  name: diamond-blaster
+  length: 1.5
+  reload: 4
+  alternate: true
+  bullet: bullet
+}

@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Ruby Extractor
+description: Extracts raw dark matter from amythysts, somehow this causes the amethysts to transform into rubys.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 40
+updateEffect: smeltsmoke
+consumes: {
+  power: 5.0
+  items: {
+    items: [
+      amethyst/4
+    ]
+  }
+}
+requirements: [
+  hypersteel/30
+  titanium/70
+  diamond-plate/20
+  amethyst-plate/20
+]
+category: crafting
+research: amethyst-plate-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: ruby/1

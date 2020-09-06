@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Ruby Plate Press
+description: Presses rubys into firm plates.
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 40
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.9
+  items: {
+    items: [
+      ruby/3
+    ]
+  }
+}
+requirements: [
+  hypersteel/10
+  metaglass/60
+  lead/100
+  diamond-plate/17
+]
+category: crafting
+research: ruby-extractor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: ruby-plate/1

@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Diamond Plate Press
+description: Presses diamond chunks into firm plates of diamond
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.9
+  items: {
+    items: [
+      diamond-chunk/3
+    ]
+  }
+}
+requirements: [
+  hypersteel/10
+  metaglass/60
+  lead/100
+]
+category: crafting
+research: hypersteel-forge
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: diamond-plate/1

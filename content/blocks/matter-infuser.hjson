@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Matter Infuser
+description: Uses molten sillicon to produce raw dark matter and infuses it into diamonds to make amethysts
+liquidCapacity: 5
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 80
+updateEffect: smeltsmoke
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      diamond-chunk/3
+    ]
+  }
+  liquid: {
+    liquid: molten-silicon
+    amount: 2
+  }
+}
+requirements: [
+  copper/50
+  metaglass/60
+  graphite/50
+]
+category: crafting
+research: silicon-smeltery
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: amethyst/1

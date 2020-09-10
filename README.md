@@ -11,7 +11,7 @@
 2. In the home screen click on **Mods**
 3. Then click on **Import Github Mod**
 4. Delete the text in the pop-up
-5. Type **MASTRIO/Expandistry** and click ok
+5. Type **MASTRIO/Expandistry-Mindustry-Mod** and click ok
 6. Make sure the mod is **enabled**
 7. Go back to the home screen and let the mods reload
 8. Done! 🧀
